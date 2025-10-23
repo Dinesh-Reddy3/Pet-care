@@ -1,0 +1,82 @@
+.cost1{
+    /* text-align: center; */
+    font-size: 40px;
+    font-style:italic;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 530px;
+}
+.cost2{
+    color: orange;
+}
+.cost22{
+    color: black;
+}
+.cost3{
+    text-align: center;
+    padding-top: 20px;
+}
+.cost4{
+    background-image: url(../images/dog9.jpg);
+    /* color: rgb(246, 243, 235); */
+    padding: 30px;
+    margin-right: 20px;
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid rgb(221,192,239); */
+    border-radius: 30px;
+}
+
+.cost5{
+     background-image: url(../images/cat5.jpg);
+    /* color:rgb(242, 241, 226); */
+    padding: 30px;
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid rgb(221,192,239); */
+    border-radius: 30px;
+}
+.icon-container{
+    display: flex;
+    padding-left: 470px;
+}
+.cost4{
+  transition: 0.3s ease;  /* smooth transition */
+}
+.cost4:hover{
+  transform: scale(1.2);
+}
+.cost5{
+  transition: 0.3s ease;  /* smooth transition */
+}
+.cost5:hover{
+  transform: scale(1.2);
+}
+
+
+/* WEB RESPONSIVE*/
+
+@media (min-width:0px) and (max-width:480px){
+.icon-container{
+    padding-left:30px;
+}
+.cost1{
+    padding-left: 76px;
+}
+}
+@media (min-width:481px) and (max-width:680px){
+.icon-container{
+    padding-left:100px;
+}
+.cost1{
+    padding-left: 130px;
+}
+}
+@media(min-width:681px){
+.icon-container{
+    padding-left:500px;
+}
+.cost1{
+    padding-left: 530px;
+}
+}

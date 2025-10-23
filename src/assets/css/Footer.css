@@ -1,0 +1,84 @@
+.foot{
+    margin: 50px;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 25% 25% 25% 25%; */
+}
+.logo1{
+    /* padding: 30px; */
+    width: 300px;
+    background-color: black;
+}
+.heads{
+    color: rgb(230, 240, 44);
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.foot p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+    font-weight: 600;
+    color: grey;
+}
+.public{
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+.brand{
+    margin-left: 15px;
+}
+.foot2,.foot3,.foot4{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.foot2 h6,.foot3 h6{
+    margin-top: 30px;
+}
+.contact1{
+    display: flex;
+    margin-top: 30px;
+}
+.conb{
+    margin-left: 5px;
+}
+.conc{
+    margin-left: 30px;
+}
+.copy{
+    margin-left: 300px;
+}
+.copy1{
+    color: orange;
+}
+.li{
+    color: black;
+    text-decoration: none;
+}
+@media (min-width:0px) and (max-width:480px){
+    .foot{
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+    }
+    .copy{
+        margin-left: 20px;
+    }
+    .foot2,.foot3,.foot4{
+        margin-left: 30px;
+    }
+}
+@media (min-width:481px) and (max-width:680px){
+    .foot{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .copy{
+        margin-left: 200px;
+    }
+    .foot2,.foot3,.foot4{
+        margin-left: 70px;
+    }
+}

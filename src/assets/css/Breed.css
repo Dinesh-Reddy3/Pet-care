@@ -1,0 +1,27 @@
+.breed{
+    margin-top: 30px;
+}
+.breed1,.breed2,.breed3,.breed4,.breed5,.breed6{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 50% 50%;
+}
+.breeda,.breedb,.breedc,.breedd,.breede,.breedf,.breedg,.breedh,.breedi,.breej,.breedk,.breedl{
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.breeda img,.breedb img,.breedc img,.breedd img,.breede img,.breedf img,.breedg img,.breedh img,.breedi img,.breedj img,.breedk img,.breedl img{
+    border-radius: 50px;
+    margin-left: 130px;
+}
+.breeda h3,.breedb h3,.breedc h3,.breedd h3,.breede h3,.breedf h3,.breedg h3,.breedh h3,.breedi h3,.breedj h3,.breedk h3,.breedl h3{
+    /* margin-left: 190px; */
+    text-align:center;
+    
+}
+.breeda p,.breedb p,.breedc p,.breedd p,.breede p,.breedf p,.breedg p,.breedh p,.breedi p,.breedj p,.breedk p,.breedl p{
+    font-size: large;
+    /* font-weight: bold; */
+    text-align: center;
+}

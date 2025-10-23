@@ -1,0 +1,71 @@
+.contact{
+    /* background-color: aqua; */
+    width: 70%;
+    margin-left:200px;
+}
+.cont{
+     text-align: center;
+     padding-top: 40px;
+}
+.contact p{
+    font-size: large;
+    font-style: italic;    
+    padding-top: 30px;
+}
+.connect{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.connect1{
+    font-size: 25px;
+    font-weight: bold;    
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+.connect2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.cont2{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.cont3{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.connect5{
+    font-size: 25px;
+    font-weight: bold; 
+     
+}
+.forma,.formc,.forme,.formaa{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.formb,.formd,.formf,.formbb{
+    width: 400px;
+    height: 40px;
+    border: 1px solid gray;
+}
+.formg{
+    margin-top: 20px;
+    background-color:orange;
+    width: 400px;
+    border-radius: 20px;
+}
+ 

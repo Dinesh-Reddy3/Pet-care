@@ -1,0 +1,97 @@
+.dog{
+    padding-left:15% ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.dog1,.dog2,.dog3{
+    background-color: rgba(248, 187, 187, 0.112);
+    width: 250px;
+    height: 830px;
+    border: 2px solid;
+    border-color: rgb(221,192,239);
+    border-radius: 30px;
+}
+.da1,.da3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-style:italic;
+    font-weight: bold;
+    text-align: center;
+}
+.da2{
+    margin-top: 20px;
+    font-size: 20px;
+    font-style:italic;
+    font-weight: bold;
+    text-align: center;
+}
+.dog1a,.dog2a,.dog3a{
+    margin-top: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 200px;
+    height: 135px;
+    margin-left: 23px;
+    padding-top: 10px;
+}
+.dogbb{
+    color: black;
+}
+.dogb{
+    margin-top: 10px;
+    background-color: orange;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 40px;
+    height: 40px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+.dog1b{
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: 500;
+}
+.dog1c{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+.dog2c{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.dog3c{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.che{
+    color: rgb(46, 218, 160);
+}
+.items1{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.che2{
+    margin-left: 25px;
+}
+
+
+/* WEB RESPONSIVE*/
+
+@media (min-width:0px) and (max-width:680px){
+.dog{
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+}
+.dog1,.dog2,.dog3{
+    margin-top: 10px;
+}
+}
+ 

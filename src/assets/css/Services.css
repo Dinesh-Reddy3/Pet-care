@@ -1,0 +1,111 @@
+
+.serve{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 550px;
+    /* text-align: center; */
+}
+.serve1{
+    color: black;
+    
+}
+.serve2{
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.serve3{
+    /* display: grid; */
+    /* grid-template-columns: repeat(3,1fr); */
+    padding-left:530px;
+    margin-top: 40px;
+    /* background-color: rgb(145, 255, 0); */
+}
+.servea{
+  background-image: url(../images/groom5.jpg);
+  /* width: 100%; */
+  /* height: 100%; */
+  object-fit: contain;
+    background-color: plum;
+    padding: 50px;
+    border-radius: 20px;
+}
+.serveb{
+    background-color: rgb(214, 236, 69);
+    padding: 50px;
+    border-radius: 20px;
+}
+.servec{
+    background-color: rgb(232, 146, 89);
+    padding: 50px;
+    border-radius: 20px;
+}
+.served{
+    color: rgb(42, 100, 102);
+    padding-left: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.servee{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.servef{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.servea{
+  color: black;           /* default color */
+  transition: 0.3s ease;  /* smooth transition */
+}
+.servea:hover{
+    color: purple;          /* color changes on hover */
+  transform: scale(1.2);
+}
+.serve5{
+  color: black;           /* default color */
+  transition: 0.3s ease;  /* smooth transition */
+}
+.serve5:hover{
+    color: orange;          /* color changes on hover */
+  transform: scale(1.2);
+}.serve6{
+  color: black;           /* default color */
+  transition: 0.3s ease;  /* smooth transition */
+}
+.serve6:hover{
+    color: orange;          /* color changes on hover */
+  transform: scale(1.2);
+}
+  /*     WEB RESPONSIVE    */
+@media (min-width:0px) and (max-width:480px){
+  .serve{
+     margin-top: 30px;
+    margin-left: 90px;
+  }
+  .serve3{
+     padding-left:100px;
+    margin-top: 40px;
+  }
+}
+@media (min-width:481px) and (max-width:680px){
+  .serve{
+     margin-top: 30px;
+    margin-left: 170px;
+  }
+  .serve3{
+     padding-left:170px;
+    margin-top: 40px;
+  }
+}
+@media (min-width:681px){
+  .serve{
+     margin-top: 30px;
+    /* margin-left: 550px; */
+  }
+  .serve3{
+     /* padding-left:510px; */
+    margin-top: 40px;
+  }
+}
