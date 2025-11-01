@@ -1,5 +1,5 @@
 import Nav from "./Nav"
-import '../assets/css/About.css'
+import '../assets/css/about.css'
 import banner6 from '../assets/images/banner6.jpg'
 import dog2 from '../assets/images/dog2.png'
 import Footer from "./Footer"

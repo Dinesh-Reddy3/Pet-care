@@ -23,8 +23,8 @@ const Register = () => {
     width: "100%",
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
 
     if (!isOtpSent) {
       // Step 1: validate phone
@@ -79,8 +79,8 @@ const Register = () => {
                   className={`regbb ${phoneError ? "error-border" : ""}`}
                   maxLength={10}
                   value={phone}
-                  onChange={(e) => {
-                    setPhone(e.target.value);
+                  onChange={(event) => {
+                    setPhone(event.target.value);
                     setPhoneError(""); // clear error on typing
                   }}
                 />
@@ -100,8 +100,8 @@ const Register = () => {
                   className={`regcb ${otpError ? "error-border" : ""}`}
                   maxLength={4}
                   value={otp}
-                  onChange={(e) => {
-                    setOtp(e.target.value);
+                  onChange={(event) => {
+                    setOtp(event.target.value);
                     setOtpError("");
                   }}
                 />
